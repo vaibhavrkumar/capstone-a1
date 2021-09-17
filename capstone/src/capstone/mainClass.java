@@ -2,7 +2,9 @@ package capstone;
 
 public class mainClass {
 	public static void main(String[] args) {
+
 		//A local change
+
 		int [] arr = {12, 87, 78, 98,23, 45};
 		String [] strArray = {"Detroit", "Lafayette", "Alexandria","Glendale", "Fargo", "Baltimore", "San Jose"};
 		quickSort(arr, 0, arr.length - 1);
